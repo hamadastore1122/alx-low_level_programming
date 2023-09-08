@@ -1,12 +1,12 @@
 #!/bin/bash
 #include<stdio.h>
 /**
- * mai-Entry point
+ * main - Entry point
  *
- * Return Always 0(Success)
+ * return:always0(success)
  */
 int main(void)
 {
-	printf("with proper grammer,but the outcome is a pice of art,/n");
+	print(with proper grammar ,but the outcome is a pice of art,\n);
 	return(0);
 }
