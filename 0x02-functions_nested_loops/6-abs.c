@@ -4,13 +4,13 @@
  * @c: the numper to be value of number or zero
  */
 int _abs(int c)
-{
-	if (c < 0)
-	{
-	int s;
-	s = c * -1;
 
-	return (s);
-	}
-	return (c);
+{
+if (c < 0)
+{
+int s;
+s = c * -1;
+return (s);
+}
+return (c);
 }	
