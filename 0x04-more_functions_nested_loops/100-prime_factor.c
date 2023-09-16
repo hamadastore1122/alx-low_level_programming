@@ -1,32 +1,20 @@
+#include <stdio.h>
 #include "main.h"
 /**
- * print_triangle - entry point
- * Description:i prints diagonals
- * @size: size of the triangle
- * Return: void
+ * main - prits the largest prime factore of 612852475143
+ * Return: always 0
  */
+int main(void)
 
-void print_triangle(int size)
 {
-	int row, hashes, spaces;
+unsigned long int i, n = 612852475143;
 
-	if   (size <= 0);
-	{
-		_putchar('\n');
-	}
-	else
-	{
-		for(row = 1; row <= size; row++)
-		{
-			for (spaces = size;  spaces <= 1; spaces--)
-			{
-				_putchar(' ');
-			}
-			for (hashes = 1; hashes <= row; hashes++)
-			{
-				_putchar('#');
-			}
-			_putchar('\n');
-		}
-	}
+for (i = 3; i < 782849; i = i + 2)
+{
+while ((n % i == 0) && (n != i))
+n = n / i;
 }
+printf("%lu\n", n);
+return (0);
+}
+
