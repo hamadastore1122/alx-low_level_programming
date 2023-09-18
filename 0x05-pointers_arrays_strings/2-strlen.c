@@ -10,6 +10,6 @@ int _strlen(char *s)
 int string_legth = 0;
 
 while (s[string_legth])
-string_legth;
+string_legth++;
 return (string_legth);
 }
