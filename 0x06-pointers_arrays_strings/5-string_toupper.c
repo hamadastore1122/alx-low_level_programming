@@ -20,5 +20,5 @@ x[length_of_string] = x[length_of_string] - 32;
 }
 length_of_string++;
 }
-return (0);
+return (x);
 }
