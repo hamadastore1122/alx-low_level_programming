@@ -23,4 +23,4 @@ void print_diagsums(int *a, int size)
 		k--;
 	}
 	printf("%i, %i\n", suma_1, suma_2);
-
+}
