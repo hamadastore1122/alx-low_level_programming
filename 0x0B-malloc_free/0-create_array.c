@@ -3,6 +3,7 @@
 #include <stdlib.h>
 
 
+
 /**
  * create_array - create an arry of size with char c
  * @size: unsigned int type
@@ -12,6 +13,7 @@
 
 char *create_array(unsigned int size, char c)
 {
+
 char *s;
 unsigned int i;
 
