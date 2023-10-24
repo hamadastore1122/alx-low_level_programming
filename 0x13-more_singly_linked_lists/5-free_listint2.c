@@ -13,6 +13,7 @@
 void free_listint2(listint_t **head)
 {
 	listint_t *temp_variable;
+
 	if (head == NULL)
 		return; /* do not do anything */
 	while (*head != NULL)
