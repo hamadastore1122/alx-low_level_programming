@@ -32,7 +32,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 		return (new_node);
 	}
 	/* if the lists is not empty traverse to the end of the list */
-	while (traverse->next != NULL)	
+	while (traverse->next != NULL)
 	traverse = traverse->next;
 	/* loop exits once traverse->next == NULL ie at end of list */
 	/* set the new_node as last node */
