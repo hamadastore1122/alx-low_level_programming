@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <stdio.h>
 /**
- * print_listnt - function that prints all elements of listint_t list.
+ * print_listint - function that prints all elements of listint_t list.
  * @h: pointer to the head if linked list.
  *
  * format: see example.
